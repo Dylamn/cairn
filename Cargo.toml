@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4.6.6", features = ["derive"] }
+anyhow = "1.0.104"
+gpx = "0.10.0"
+time = "0.3.55"
+thiserror = "2.0.20"
