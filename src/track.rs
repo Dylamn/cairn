@@ -6,7 +6,6 @@
 // gpx.tracks[..].segments[..].
 
 use gpx::{Gpx, Waypoint};
-use crate::Error::Track;
 
 #[derive(Debug, thiserror::Error)]
 pub enum TrackError {
